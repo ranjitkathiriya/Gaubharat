@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gaubharat"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+     <!--  Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Product"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Inorganic"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Cooking"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Category"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Cart"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Vegetables"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+       
+       <activity
+            android:name=".Fruits"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Pulses"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Cereals"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".InorganicVeg"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".InorganicFruit"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Flour"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".DryFruit"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Oil"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Snacks"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Spices"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Dairy"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Beauty"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Shampoo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Cream"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Facewash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Cosmetics"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Ayurved"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Books"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Medicine"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Santulan"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Panchgavya"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Baby"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Rajiv"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Sweet"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Gaubharat"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity
+            android:name=".Grocery"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            >           
+        </activity>
+        <activity 
+            android:name=".Home"
+            android:label="@string/app_name" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+         
+         
+    </application>
+    
+   
+    
+
+</manifest>

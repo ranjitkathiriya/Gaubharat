@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dp">
+        <HorizontalScrollView 
+					android:layout_width="fill_parent"                          
+					android:layout_height="wrap_content"                          
+					android:fillViewport="true"                          
+					android:scrollbars="none"> 
+	        <TabWidget
+	            android:id="@android:id/tabs"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content" />
+	    </HorizontalScrollView>
+	        <FrameLayout
+	            android:id="@android:id/tabcontent"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	             />    
+    </LinearLayout>
+</TabHost>
+
+<!-- 
+	android:padding="5dp"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background1"
+    
+   >
+   
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Vegetables and Fruits"
+        android:textSize="23sp"
+        android:textColor="#9f5725"
+        android:textAlignment="center"/>
+<ListView
+        android:id="@+id/lv_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        
+/> 
+</LinearLayout>
+
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@android:id/tabhost"  
+	android:layout_width="fill_parent"         
+	android:layout_height="fill_parent">  
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="fill_parent"                
+			android:layout_height="fill_parent">    
+				<HorizontalScrollView 
+					android:layout_width="fill_parent"                          
+					android:layout_height="wrap_content"                          
+					android:fillViewport="true"                          
+					android:scrollbars="none">      
+						<TabWidget 
+							android:id="@android:id/tabs"                 
+							android:layout_width="fill_parent"                 
+							android:layout_height="wrap_content"/>    
+				</HorizontalScrollView>    
+				<FrameLayout 
+					android:id="@android:id/tabcontent"                 
+					android:layout_width="fill_parent"                 
+					android:layout_height="fill_parent" />  
+		</LinearLayout>
+</TabHost> -->
