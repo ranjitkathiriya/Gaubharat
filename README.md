@@ -1,5 +1,5 @@
 # Gaubharat
-Android application by local product to sell organic vegitables, and serial
+Android application by local product to sell organic vegetables, and serial
 
 
 # Language 
